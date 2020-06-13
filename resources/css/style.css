@@ -1,0 +1,33 @@
+
+
+.active{
+  font-weight: bolder;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.col-form-label {
+  text-align: right;
+}
+
+.img-table{
+  max-height: 50px;
+}
+
+label{
+  font-weight: bold;
+}
+
+@media print{
+
+  #btn-print{
+    display: none;
+  }
+  
+  .garis img{
+    display: inline
+  }
+
+}
